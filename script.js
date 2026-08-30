@@ -64,7 +64,7 @@ let cards = [
     },
     
     { name: "The Hanged Man",
-        image: "images/Hanged Man.jpg",
+        image: "images/Hanged man.jpg",
         meaning: "ทำอะไรก็รู้สึกว่าติดขัด อย่าเพิ่งรีบตัดสินใจ แต่ให้คุณลองถอยออกมาดูปัญหาให้รอบด้านก่อน แล้วคุณจะแก้ปัญหาที่อยู่ตรงหน้านั้นได้เอง"
     },
     
