@@ -1,0 +1,210 @@
+body{
+  background:linear-gradient(
+    #843ca9,
+    #5a189a,
+    #1f003e
+  );
+  color:white;
+  text-align: center; 
+  min-height:100vh;
+  margin:0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-homepage{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 125px;
+  height: 45px;
+  text-decoration: none;
+  text-align: center;
+  background: #1e1e1e;
+  color: white;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn-homepage:hover {
+   background:
+    linear-gradient(
+        #C3EEFA,
+        #3366FF
+    ); 
+  color:black;
+  transform: scale(1.05);
+  border: 2px solid #89789a;
+}
+
+.btn-tryagain{
+  display: inline-block;
+  text-decoration: none;
+  align-content: center;
+  background: #1e1e1e;
+  color: white;
+  width: 120px;
+  height: 45px;
+  border:1px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn-tryagain:hover {
+   background:
+    linear-gradient(
+        #FFC2D1,
+        #78A3D4
+    ); 
+  color:black;
+  transform: scale(1.05);
+  border: 2px solid #89789a;
+}
+
+.btn-container{
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarot-btn {
+  display: inline-block;
+  background: #1e1e1e;
+  color: white;
+  padding: 75px 80px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.tarot-btn:hover {
+   background:
+    linear-gradient(
+        #e0aaff,
+        #c77dff
+    ); 
+  color:white;
+  transform: scale(1.05);
+  border: 2px solid #89789a;
+}
+
+.ball{
+  margin:0;
+  border:0;
+  padding:0;
+}
+
+.normal-text{
+  text-align: center;
+  margin: 0 auto;
+  width: 230px;
+  font-size: smaller;
+  background:#f8f2ff;
+  color: #1e1e1e;
+  padding:20px;
+  border-radius:20px;
+  border: 2px solid #434242;
+  opacity: 0.85;
+}
+
+.box{
+  display:flex;
+  width: 380px;
+  height: 200px;
+  border: 2px solid gray;
+  background-color: #F5EED8;
+  margin: auto;
+  border-radius: 15px;
+  justify-content:center;
+  gap:5.5px;
+  
+}
+
+.btn-random{
+  width: 100px;
+  height: 45px;
+  border:1px;
+  border-radius: 25px;
+  background: #000000;
+  color: white;
+}
+
+.btn-random:hover {
+background:
+    linear-gradient(
+        #FFA9A9,
+        #9379C2
+    ); 
+border: 2px solid #89789a;
+color: black;
+transform: scale(1.05);
+transition: 0.3s;
+}
+
+.head1{
+  margin-top: 0;
+}
+
+img{
+    margin-bottom:0;
+}
+
+.box img{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:5.5px;
+}
+
+.tarot-card {
+    transition: transform 2s;
+}
+
+.flip {
+    transform: rotateY(180deg) scaleX(-1);
+}
+
+.grid-container{
+  display: grid;
+  margin: 10px 0;
+  width: 350px;
+  grid-template-columns: 100px 1fr;
+  
+  gap: 15px;
+}
+
+.imageMeaning{
+  width: 100px;
+}
+
+.meaningCard-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  place-content: center;
+}
+
+h1{
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+h2{
+  margin-top: 0;
+}
+
+h3{
+  text-align: left;
+  width: 250px;
+  padding-top: 0%;
+  padding-left: 0%;
+  margin: 0%;
+  
+}
+
