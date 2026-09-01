@@ -1,7 +1,7 @@
 <html>
   <body>
     <strong>SeleNatarot | ดูดวงรายวันไพ่ทาโรต์</storng>
-    เว็บไซต์พยากรณ์ดวงชะตาออนไลน์ด้วย HTML, CSS และ JavaScript
+    <p>เว็บไซต์พยากรณ์ดวงชะตาออนไลน์ด้วย HTML, CSS และ JavaScript</p>
     
     โครงสร้างหลักของโปรเจ็ค
     index.html
