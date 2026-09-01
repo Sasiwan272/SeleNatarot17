@@ -1,6 +1,6 @@
 <html>
   <body>
-    <strong>SeleNatarot | ดูดวงรายวันไพ่ทาโรต์</storng>
+    <strong>SeleNatarot | ดูดวงรายวันไพ่ทาโรต์</strong>
     <p>เว็บไซต์พยากรณ์ดวงชะตาออนไลน์ด้วย HTML, CSS และ JavaScript</p>
     
     โครงสร้างหลักของโปรเจ็ค
